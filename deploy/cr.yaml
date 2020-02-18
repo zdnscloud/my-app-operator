@@ -1,0 +1,8 @@
+apiVersion: app.zcloud.cn/v1beta1
+kind: Application
+metadata:
+  name: vanguard
+spec:
+  # Add fields here
+  workloads: ["v2"]
+  services: ["s2"]
